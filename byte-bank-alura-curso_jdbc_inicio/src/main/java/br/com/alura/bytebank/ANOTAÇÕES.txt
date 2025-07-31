@@ -1,0 +1,8 @@
+Mysql no linux
+sudo service mysql stop
+
+sudo service mysql start
+
+sudo mysql_secure_installation
+mysql -u root -p
+Eliziajs
