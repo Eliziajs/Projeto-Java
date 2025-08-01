@@ -41,6 +41,7 @@ public class ContaService {
                 "VALUES (?, ?, ?, ?, ?)";
 
         Connection conn = connection.recuperarConexao();
+        //Continua ...
         try{
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
 
