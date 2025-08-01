@@ -38,7 +38,7 @@ public class ContaService {
 
         //Código omitido
         String sql = "INSERT INTO conta (numero, saldo, cliente_nome, cliente_cpf, cliente_email)" +
-                "VALUES (?, ?, ?, ?, ?)";
+                "VALUES (?, ?, ?, ?, ?) ";
 
         Connection conn = connection.recuperarConexao();
         //Continua ...
